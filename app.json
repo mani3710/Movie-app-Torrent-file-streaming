@@ -1,28 +1,36 @@
 {
-  "expo": {
-    "name": "movies",
-    "slug": "movies",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
+    "expo": {
+        "name": "movies",
+        "slug": "movies",
+        "platforms": [
+            "ios",
+            "android",
+            "web"
+        ],
+        "android": {
+            "package": "com.movies.app",
+            "versionCode": 1,
+            "icon": "./assets/torrent-logo.png"
+        },
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/torrent-logo.png",
+        "splash": {
+            "image": "./assets/walpaper.png",
+            "height": "100px",
+            "width": "100px",
+            "resizeMode": "contain",
+
+            "backgroundColor": "#424242"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true
+        }
     }
-  }
 }
